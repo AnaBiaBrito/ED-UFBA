@@ -32,4 +32,3 @@ def remove (self, x):
     self.nelems -= 1
     self.dados[i] = self.dados[self.nelems]
     return True
-
