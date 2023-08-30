@@ -1,0 +1,12 @@
+# não é um código, é  um algoritmo
+
+#for j =  2 to do:
+#    chave = A[j]
+#    i = j - 1
+#    while (i>0) and (A[i]>chave) do:
+#        A[i + 1] = A[i]
+#        i = i-1
+#     A[i + 1] = chave
+
+# nesse sistema o algoritmo pega um item x compara com o item anterior, se x-1 for maior que x, ele coloca x-1 na chave e x na posição em que x-1 estava, assim colocando x-1 na posição em que x estava, ordendando.
+    
