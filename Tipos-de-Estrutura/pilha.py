@@ -17,7 +17,7 @@ def empilha (self, x):
 # criando função desempilha (pop)
 def desempilha (self):
     if(self.nelems == 0):
-        return False
+        return (False, -1)
+    x = self.dados[self.nelems - 1]
     self.nelems -=1
-    return True
-# preciso alterar esse código para retornar o que foi retirado da pilha
+    return (True, x)
