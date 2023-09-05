@@ -11,6 +11,8 @@ class Pilha:
 def enfileirar (self, x):
     if(len(self.dados)) == self.nelems:
         return False
-    
+    self.dados[self.nelems] = x
+    self.nelems += 1
+    return True
 
 # desenfileirar
